@@ -7,5 +7,25 @@ body {
 .cont-one {
     height: 500px;
     background-color: #1F2937;
+}
 
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+
+ul {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding-top: 10px;
 }
