@@ -18,9 +18,13 @@ body {
 }
 
 .cont-two {
-    height: 500px;
+    height: 450px;
     background-color: white;
     padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -94,3 +98,27 @@ button {
     flex: 1 0 auto;
 }
 
+.second-section {
+    display: flex;
+    gap: 50px;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.square {
+    height: 170px;
+    width: 170px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
+
+.second-section-text {
+    width: 170px;
+    color: rgb(77, 76, 76);
+    text-align: center;
+    font-size: 18px;
+}
