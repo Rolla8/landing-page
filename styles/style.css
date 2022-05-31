@@ -17,16 +17,6 @@ body {
     padding: 0 200px;
 }
 
-.cont-two {
-    height: 450px;
-    background-color: white;
-    padding: 0 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -98,6 +88,16 @@ button {
     flex: 1 0 auto;
 }
 
+.cont-two {
+    height: 450px;
+    background-color: white;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .second-section {
     display: flex;
     gap: 50px;
@@ -121,4 +121,31 @@ h2 {
     color: rgb(77, 76, 76);
     text-align: center;
     font-size: 18px;
+}
+
+.cont-three {
+    height: 400px;
+    background-color: #e5e7eb;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    width: 800px;
+    font-size: 36px;
+    font-weight:300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-sign {
+    width: 800px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
 }
